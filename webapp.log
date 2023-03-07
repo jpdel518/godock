@@ -1,0 +1,136 @@
+2022/03/07 18:21:00 main.go:15: test
+2022/03/07 18:30:06 main.go:15: test
+2022/03/07 18:30:45 main.go:15: test
+2022/03/07 18:44:37 main.go:15: test
+2022/03/07 18:45:04 main.go:15: test
+2022/03/07 18:53:14 main.go:15: test
+2022/03/07 18:54:14 main.go:15: test
+2022/03/07 18:56:22 main.go:15: test
+2022/03/07 18:59:53 main.go:15: test
+2022/03/07 19:05:16 main.go:15: test
+2022/03/08 10:05:18 main.go:15: test
+2022/03/08 10:05:38 main.go:15: test
+2022/03/08 10:07:55 main.go:15: test
+2022/03/08 10:08:08 main.go:15: test
+2022/03/08 10:08:20 main.go:15: test
+2022/03/08 10:09:08 main.go:15: test
+2022/03/08 10:09:38 main.go:15: test
+2022/03/08 10:12:32 main.go:15: test
+2022/03/08 10:14:10 main.go:15: test
+2022/03/08 10:15:37 main.go:15: test
+2022/03/08 10:17:16 main.go:15: test
+2022/03/08 10:17:52 main.go:15: test
+2022/03/08 10:18:17 main.go:15: test
+2022/03/08 10:19:49 main.go:15: test
+2022/03/08 10:20:54 main.go:15: test
+2022/03/08 15:36:57 main.go:21: test
+2022/03/08 15:40:22 base.go:41: dial tcp 127.0.0.1:3306: connect: connection refused
+2022/03/08 15:43:16 base.go:41: dial tcp 127.0.0.1:3306: connect: connection refused
+2022/03/08 15:43:56 base.go:41: dial tcp 127.0.0.1:3306: connect: connection refused
+2022/03/08 15:46:12 base.go:41: dial tcp 127.0.0.1:3306: connect: connection refused
+2022/03/08 15:47:59 base.go:33: dial tcp 127.0.0.1:3306: connect: connection refused
+2022/03/08 15:54:54 base.go:33: dial tcp 127.0.0.1:3306: connect: connection refused
+2022/03/08 16:20:48 base.go:33: dial tcp 127.0.0.1:3306: connect: connection refused
+2022/03/08 16:53:38 base.go:33: dial tcp 127.0.0.1:3306: connect: connection refused
+2022/03/08 16:56:15 base.go:46: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AUTOINCREMENT,
+ uuid VARCHAR(255) NOT NULL UNIQUE,
+ name VARCHAR(255),
+ password' at line 2
+2022/03/08 17:19:59 users.go:32: sql: database is closed
+2022/03/08 17:22:04 users.go:32: sql: database is closed
+2022/03/08 17:25:11 users.go:32: sql: database is closed
+2022/03/08 17:25:52 users.go:32: sql: database is closed
+2022/03/08 17:27:42 users.go:32: sql: database is closed
+2022/03/08 17:28:36 users.go:32: sql: database is closed
+2022/03/08 17:35:17 users.go:32: sql: database is closed
+2022/03/08 17:36:44 users.go:32: sql: database is closed
+2022/03/08 17:42:27 users.go:32: sql: database is closed
+2022/03/08 17:45:54 users.go:33: sql: database is closed
+2022/03/08 17:52:28 base.go:35: dial tcp 172.28.0.2:3306: connect: connection refused
+2022/03/08 17:53:39 base.go:35: dial tcp 172.28.0.2:3306: connect: connection refused
+2022/03/08 17:56:43 base.go:35: dial tcp 172.31.0.2:3306: connect: connection refused
+2022/03/08 17:58:17 users.go:33: sql: database is closed
+2022/03/08 17:59:47 users.go:31: sql: database is closed
+2022/03/08 18:14:59 users.go:31: sql: database is closed
+2022/03/08 18:21:05 users.go:31: sql: database is closed
+2022/03/08 18:33:44 users.go:28: sql: database is closed
+2022/03/08 18:34:28 users.go:28: sql: database is closed
+2022/03/08 18:53:54 users.go:28: sql: database is closed
+2022/03/08 19:16:32 users.go:24: sql: database is closed
+2022/03/08 19:18:26 users.go:24: sql: database is closed
+2022/03/08 19:23:07 users.go:27: sql: database is closed
+2022/03/08 19:25:01 users.go:22: sql: database is closed
+2022/03/08 19:25:35 users.go:22: sql: database is closed
+2022/03/08 19:26:22 users.go:22: sql: database is closed
+2022/03/08 19:26:52 users.go:22: sql: database is closed
+2022/03/08 19:52:57 users.go:22: sql: database is closed
+2022/03/08 20:09:24 users.go:22: sql: database is closed
+2022/03/08 21:34:55 main.go:25: sql: Scan error on column index 5, name "created_at": unsupported Scan, storing driver.Value type []uint8 into type *time.Time
+2022/03/09 12:23:18 users.go:70: Error 1146: Table 'flowers.user' doesn't exist
+2022/03/09 12:43:21 server.go:3160: http: panic serving 192.168.48.4:56528: runtime error: invalid memory address or nil pointer dereference
+goroutine 6 [running]:
+net/http.(*conn).serve.func1(0x40002020a0)
+	/usr/local/go/src/net/http/server.go:1802 +0xe4
+panic({0x33b340, 0x629390})
+	/usr/local/go/src/runtime/panic.go:1052 +0x2b4
+html/template.(*Template).escape(0x0)
+	/usr/local/go/src/html/template/template.go:97 +0x30
+html/template.(*Template).Execute(0x0, {0x401a00, 0x40002060e0}, {0x0, 0x0})
+	/usr/local/go/src/html/template/template.go:121 +0x28
+app/controllers.top({0x407aa0, 0x40002060e0}, 0x4000228000)
+	/go/src/app/controllers/route_main.go:10 +0xa4
+net/http.HandlerFunc.ServeHTTP(0x3a8438, {0x407aa0, 0x40002060e0}, 0x4000228000)
+	/usr/local/go/src/net/http/server.go:2047 +0x40
+net/http.(*ServeMux).ServeHTTP(0x63a360, {0x407aa0, 0x40002060e0}, 0x4000228000)
+	/usr/local/go/src/net/http/server.go:2425 +0x18c
+net/http.serverHandler.ServeHTTP({0x4000206000}, {0x407aa0, 0x40002060e0}, 0x4000228000)
+	/usr/local/go/src/net/http/server.go:2879 +0x45c
+net/http.(*conn).serve(0x40002020a0, {0x409160, 0x400001c3c0})
+	/usr/local/go/src/net/http/server.go:1930 +0xb54
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3034 +0x4ac
+2022/03/09 12:43:38 server.go:3160: http: panic serving 192.168.48.4:56530: runtime error: invalid memory address or nil pointer dereference
+goroutine 8 [running]:
+net/http.(*conn).serve.func1(0x4000202140)
+	/usr/local/go/src/net/http/server.go:1802 +0xe4
+panic({0x33b340, 0x629390})
+	/usr/local/go/src/runtime/panic.go:1052 +0x2b4
+html/template.(*Template).escape(0x0)
+	/usr/local/go/src/html/template/template.go:97 +0x30
+html/template.(*Template).Execute(0x0, {0x401a00, 0x40002061c0}, {0x0, 0x0})
+	/usr/local/go/src/html/template/template.go:121 +0x28
+app/controllers.top({0x407aa0, 0x40002061c0}, 0x4000228100)
+	/go/src/app/controllers/route_main.go:10 +0xa4
+net/http.HandlerFunc.ServeHTTP(0x3a8438, {0x407aa0, 0x40002061c0}, 0x4000228100)
+	/usr/local/go/src/net/http/server.go:2047 +0x40
+net/http.(*ServeMux).ServeHTTP(0x63a360, {0x407aa0, 0x40002061c0}, 0x4000228100)
+	/usr/local/go/src/net/http/server.go:2425 +0x18c
+net/http.serverHandler.ServeHTTP({0x4000206000}, {0x407aa0, 0x40002061c0}, 0x4000228100)
+	/usr/local/go/src/net/http/server.go:2879 +0x45c
+net/http.(*conn).serve(0x4000202140, {0x409160, 0x400001c3c0})
+	/usr/local/go/src/net/http/server.go:1930 +0xb54
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3034 +0x4ac
+2022/03/09 12:43:40 server.go:3160: http: panic serving 192.168.48.4:56532: runtime error: invalid memory address or nil pointer dereference
+goroutine 34 [running]:
+net/http.(*conn).serve.func1(0x400018c000)
+	/usr/local/go/src/net/http/server.go:1802 +0xe4
+panic({0x33b340, 0x629390})
+	/usr/local/go/src/runtime/panic.go:1052 +0x2b4
+html/template.(*Template).escape(0x0)
+	/usr/local/go/src/html/template/template.go:97 +0x30
+html/template.(*Template).Execute(0x0, {0x401a00, 0x40002062a0}, {0x0, 0x0})
+	/usr/local/go/src/html/template/template.go:121 +0x28
+app/controllers.top({0x407aa0, 0x40002062a0}, 0x4000228300)
+	/go/src/app/controllers/route_main.go:10 +0xa4
+net/http.HandlerFunc.ServeHTTP(0x3a8438, {0x407aa0, 0x40002062a0}, 0x4000228300)
+	/usr/local/go/src/net/http/server.go:2047 +0x40
+net/http.(*ServeMux).ServeHTTP(0x63a360, {0x407aa0, 0x40002062a0}, 0x4000228300)
+	/usr/local/go/src/net/http/server.go:2425 +0x18c
+net/http.serverHandler.ServeHTTP({0x4000206000}, {0x407aa0, 0x40002062a0}, 0x4000228300)
+	/usr/local/go/src/net/http/server.go:2879 +0x45c
+net/http.(*conn).serve(0x400018c000, {0x409160, 0x400001c3c0})
+	/usr/local/go/src/net/http/server.go:1930 +0xb54
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:3034 +0x4ac
+2023/02/24 19:07:37 base.go:35: dial tcp: lookup mysql: no such host
