@@ -2,21 +2,21 @@
 
 <br>
 
-##start
+## start
 docker-compose up -d
-##stop
+## stop
 docker-compose stop
-##delete
+## delete
 docker-compose down
-##check docker status
+## check docker status
 docker-compose ps
-##execute command in GO
+## execute command in GO
 docker-compose exec go sh
-##get out of node
+## get out of node
 exit
-##execute GO project
+## execute GO project
 After `execute command in GO` process
 go run main.go
-##install GO module
+## install GO module
 After `execute command in GO` process
 go get xxxxxxxxxx
